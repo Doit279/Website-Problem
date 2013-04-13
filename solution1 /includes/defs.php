@@ -11,7 +11,7 @@ function showerror() {
 function mysql_open() {
   $connection = @ mysql_connect("  ","  ", "  ")
       or die("Could not connect");
-  mysql_select_db("s2850327db", $connection)
+  mysql_select_db(" ", $connection)
       or showerror();
   return $connection;
 }
